@@ -54,3 +54,22 @@ names.forEach(name => {
     console.log(name);
 });
 
+
+// Ex 4 :
+function fizzbuzz(arr) {
+    return arr.map(num => {
+        if (num % 3 === 0 && num % 5 === 0) {
+            return "Fizz Buzz";
+        } else if (num % 3 === 0) {
+            return "Fizz";
+        } else if (num % 5 === 0) {
+            return "Buzz";
+        } else {
+            return num;
+        }
+    });
+}
+
+const inputEx4 = [3, 5, 15, 7];
+console.log("Ex4 Result:", fizzbuzz(inputEx4));
+
