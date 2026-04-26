@@ -44,3 +44,13 @@ function checkEvenOdd(arr) {
         });
 }
 
+
+// Ex3 :
+const names = ["Rawan", "Wesam", "Hind", "Muhammad", "Esraa", "Dareen"];
+
+console.log("Ex3 Result:");
+
+names.forEach(name => {
+    console.log(name);
+});
+
